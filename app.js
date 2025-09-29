@@ -13,7 +13,7 @@ const linksData = [
   { title:"omleurope.com",             url:"",           icon:"fa-solid fa-globe" },
   { title:"Instagram",                 url:"",           icon:"fa-brands fa-instagram" },
   { title:"Instagram Perú",            url:"",           icon:"fa-brands fa-instagram" },
-  { title:"Servicio Técnico Yarphone", url:"#",          icon:"fa-solid fa-gear" },
+  { title:"Youtube", url:"#",          icon:"fa-solid fa-gear" },
   { title:"TikTok Oml Europe",         url:"",           icon:"fa-brands fa-tiktok" },
   { title:"Facebook Oficial",          url:"",           icon:"fa-brands fa-facebook-f" },
   { title:"X (Anteriormente Twitter)", url:"u",          icon:"fa-brands fa-x-twitter" }
@@ -143,3 +143,4 @@ document.addEventListener('DOMContentLoaded',updateWhiteFloor);
     showBar(false);
   });
 })();
+
