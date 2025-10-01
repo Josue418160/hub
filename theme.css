@@ -1,8 +1,8 @@
 :root{
   --brand:#0033DD;
   --text:#111827;
-  --muted:#6b7280;
-  --page-bg:#d9d9d9;
+  --muted:#1a48a5;
+  --page-bg:#b4b4b4;
   --card:#ffffff;
   --line:#e6e6e6;
   --radius:24px;
@@ -17,7 +17,6 @@
   --qr-right:24px;
   --qr-bottom:24px;
 
-  /* Título QR “View on mobile” */
   --qr-title-shift:-6px;
 
   --caption-gap:14px;
@@ -36,11 +35,8 @@
   --icons-size:20px;
 }
 
+/* 🔴 En celulares ocultar QR y panel */
 @media (max-width:420px){
-  :root{
-    --profile-pad-top:100px;
-    --avatar-pop:-4px;
-    --name-nudge:-2px;
-    --icons-side:28px;
-  }
+  .qr-panel{ display:none !important; }
+  #qrcode{ display:none !important; }
 }
